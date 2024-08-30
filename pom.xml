@@ -23,13 +23,11 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-			<plugins>
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
             <version>4.0.0.4121</version> 
         </plugin>
-    </plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.2.3</version>
